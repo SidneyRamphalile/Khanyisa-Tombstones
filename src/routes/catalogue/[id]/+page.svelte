@@ -13,16 +13,32 @@
 {#if item}
 <section class="container mx-auto px-6 py-16">
   <div class="flex flex-col md:flex-row gap-10">
-    <img src={item.image} alt={item.name} class="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-lg" />
-    <div class="flex-1">
-      <h1 class="text-3xl font-bold text-red-600">{item.name}</h1>
-      <p class="mt-4 text-gray-700">{item.description}</p>
-      <p class="mt-4 text-xl font-bold">R{item.price}</p>
-      <button class="mt-6 bg-red-600 hover:bg-red-800 text-white px-6 py-3 rounded-lg font-semibold transition">
-        Enquire Now
-      </button>
+    <!-- Responsive image -->
+    <img
+      src={item.image}
+      alt={item.name}
+      class="w-full md:w-1/2 h-auto object-contain rounded-lg shadow-lg bg-gray-50"
+    />
 
-      <a href="/catalogue" class="block mt-4 text-red-600 hover:text-red-800 underline text-sm">
+    <!-- Item details -->
+    <div class="flex-1 flex flex-col justify-center">
+      <h1 class="text-3xl font-bold text-red-600">{item.name}</h1>
+      <p class="mt-4 text-gray-700 leading-relaxed">{item.description}</p>
+      <p class="mt-4 text-xl font-bold">R{item.price}</p>
+
+      <!-- Compact Enquire Now button -->
+      <a
+        href="/contact"
+        class="mt-6 inline-block bg-red-600 hover:bg-red-800 text-white px-5 py-2 rounded-md font-semibold transition w-fit"
+      >
+        Enquire Now
+      </a>
+
+      <!-- Back link -->
+      <a
+        href="/catalogue"
+        class="block mt-4 text-red-600 hover:text-red-800 underline text-sm"
+      >
         ← Back to Catalogue
       </a>
     </div>

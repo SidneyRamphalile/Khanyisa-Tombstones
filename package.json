@@ -33,6 +33,7 @@
 	},
 	"dependencies": {
 		"aos": "^2.3.4",
+		"lucide-svelte": "^0.545.0",
 		"svelte-icons": "^2.1.0"
 	}
 }
