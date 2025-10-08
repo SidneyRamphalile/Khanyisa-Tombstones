@@ -5,7 +5,7 @@
   <!-- Centered Nav Items -->
   <div class="flex-1 flex justify-center space-x-8">
     <a href="/about" class="hover:text-red-400">About</a>
-    <a href="/products" class="hover:text-red-600">Products</a>
+    <a href="/catalogue" class="hover:text-red-600">Catalogue</a>
     <a href="/gallery" class="hover:text-red-400">Gallery</a>
     <a href="/services" class="hover:text-red-400">Services</a>
     <a href="/contact" class="hover:text-red-400">Contact</a>

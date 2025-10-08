@@ -2,15 +2,22 @@
   import { onMount } from 'svelte';
   import AOS from 'aos';
   import 'aos/dist/aos.css';
-  import { products } from '$lib/data/products.js';
-  import ProductCard from '$lib/components/ProductCard.svelte';
+  import { catalogue } from '$lib/data/catalogue.js';
+  import CatalogueCard from '$lib/components/CatalogueCard.svelte';
 
   onMount(() => {
     AOS.init({
-      duration: 1000, // Animation duration in ms
-      once: true,     // Animate once per scroll
+      duration: 1000,
+      once: true,
     });
   });
+
+  function getRandomTombstones(arr, n) {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, n);
+  }
+
+  const featured = getRandomTombstones(catalogue, 3);
 </script>
 
 <svelte:head>
@@ -22,7 +29,7 @@
 <section class="bg-black text-white text-center py-20 px-6" data-aos="fade-down">
   <h1 class="text-4xl md:text-5xl font-bold text-red-600 glow-animate">Preserve Memories, Honour Legacy</h1>
   <p class="mt-4 text-lg text-yellow-400 glow-animate">High-quality tombstones and memorial products to celebrate lives.</p>
-  <a href="/products" class="mt-6 inline-block bg-red-600 hover:bg-red-800 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition" data-aos="zoom-in" data-aos-delay="200">
+  <a href="/catalogue" class="mt-6 inline-block bg-red-600 hover:bg-red-800 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition" data-aos="zoom-in" data-aos-delay="200">
     Shop Now
   </a>
 </section>
@@ -30,15 +37,9 @@
 <!-- Two-Column Section -->
 <section class="container mx-auto py-16 px-6" data-aos="fade-up">
   <div class="flex flex-col md:flex-row items-center gap-10">
-    <!-- Left: Image -->
     <div class="md:w-1/2 flex justify-center md:justify-start" data-aos="fade-right">
-      <img 
-        src="/images/khanyisa-logo.jpg" 
-        alt="Khanyisa Tombstones" 
-        class="rounded-lg shadow-lg w-3/4 md:w-full max-w-sm h-auto object-cover"
-      />
+      <img src="/images/khanyisa-logo.jpg" alt="Khanyisa Tombstones" class="rounded-lg shadow-lg w-3/4 md:w-full max-w-sm h-auto object-cover" />
     </div>
-    <!-- Right: Text -->
     <div class="md:w-1/2 text-center md:text-left" data-aos="fade-left">
       <h2 class="text-3xl font-bold text-red-600 mb-4">Honouring Your Loved Ones</h2>
       <p class="text-gray-700">
@@ -54,22 +55,21 @@
 <section class="container mx-auto py-16 px-6" data-aos="fade-up">
   <h2 class="text-2xl font-bold text-center text-red-600 mb-10">Featured Tombstones</h2>
   <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-    {#each products.slice(0,3) as product}
-      <a href={`/products/${product.id}`} class="block hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="100">
-        <ProductCard {product} />
+    {#each featured as product}
+      <a href={`/catalogue/${product.id}`} class="block hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="100">
+        <CatalogueCard {product} />
       </a>
     {/each}
   </div>
 </section>
 
+
 <!-- QR Code Section -->
 <section class="bg-gray-50 py-16 px-6" data-aos="fade-up">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
-    <!-- Left: QR Image -->
     <div class="md:w-1/2 flex justify-center" data-aos="fade-right">
       <img src="/images/qr-demo.jpg" alt="QR Code Memorial Demo" class="w-64 md:w-80 rounded-lg shadow-lg" />
     </div>
-    <!-- Right: Text & Info -->
     <div class="md:w-1/2 text-center md:text-left space-y-6" data-aos="fade-left">
       <h2 class="text-3xl font-bold text-red-600">Preserve Memories Forever</h2>
       <p class="text-gray-700 text-lg">
