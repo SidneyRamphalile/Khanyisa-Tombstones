@@ -3,42 +3,48 @@ export const catalogue = [
 	{
 		id: 'KT001',
 		name: 'KT001',
-		description: 'Classic granite tombstone.',
+		description:
+			'Introducing a masterful blend of form and material: the Architectural Memorial in Premium Black Granite. This monument redefines the traditional gravestone with a striking, geometric silhouette. The design incorporates two distinct elements: a series of finely-cut vertical louvers on the left and a contrasting open rectangular window on the right, symbolizing both enclosure and release. Set upon a sleek, water-effect base, the deep, luminous stone is perfectly finished to achieve a high-gloss sheen, ensuring a timeless, enduring tribute. The unique cut offers a dynamic interplay of light and shadow throughout the day.',
 		price: 35000,
 		image: '/images/products/KT001.jpg'
 	},
 	{
 		id: 'KT002',
 		name: 'KT002',
-		description: 'Elegant marble headstone.',
+		description:
+			'The Reidetuir Monument is an architectural memorial crafted from rich, dark speckled granite, featuring a striking, tall headstone set upon a wide, highly polished plinth. The headstone presents a sophisticated contrast: its front face offers a vast, mirror-polished surface ideal for inscription and featuring a distinguished stylized star emblem, while a unique recessed vertical panel incorporates subtle, metallic inlays that evoke light rays or folded pages. The entirety of the monument boasts a remarkable high-gloss finish, ensuring the deep coloration of the stone is enhanced and producing a breathtaking, near-liquid reflection on the base, making it a distinctive and enduring tribute.',
 		price: 40000,
 		image: '/images/products/KT002.jpg'
 	},
 	{
 		id: 'KT003',
 		name: 'KT003',
-		description: 'Premium black granite tombstone.',
+		description:
+			"The Asymmetrical Frame Monument delivers a powerful, contemporary presence through its dramatic use of deeply textured speckled black granite. Its signature feature is the tall, robust outer frame that cradles a slightly recessed central panel, creating a striking sense of depth and dimension. This inner panel is enhanced with three subtle, vertical metallic inlays, adding a delicate contrast to the stone's bold structure. Set upon a multi-layered base, the entire monument is finished with an exquisite high-mirror polish, ensuring that the stone's rich color and the surrounding light are beautifully reflected on the base and plinth, resulting in a distinctively modern and enduring memorial.",
 		price: 45000,
 		image: '/images/products/KT003.jpg'
 	},
 	{
 		id: 'KT004',
 		name: 'KT004',
-		description: 'Timeless design with polished finish.',
+		description:
+			'The Contemporary Dual-Panel Monument offers a sophisticated and dignified tribute, expertly crafted from highly polished deep black granite. This imposing design features a dramatic two-part headstone: a tall, dominant central slab reserved for inscription and an adjoining vertical panel that prominently features an engraved or inlaid cross. The entire memorial sits on a substantial, multi-tiered base which includes a separate, matching granite bench, providing a space for quiet reflection. The surfaces are finished to a high-gloss sheen, creating a profound, mirror-like depth that enhances the elegance and permanence of this striking, modern take on a classic religious memorial.',
 		price: 40000,
 		image: '/images/products/KT004.jpg'
 	},
 	{
 		id: 'KT005',
 		name: 'KT005',
-		description: 'Family tombstone for generations.',
+		description:
+			'The Classic Upright Panel Memorial is a dignified and substantial tribute, featuring a traditional yet contemporary silhouette crafted from rich, speckled deep black granite. The central, tall headstone provides ample, highly polished surface area for inscription, enhanced by the subtle elegance of a metallic gold crucifix and a small, delicate cross emblem at the top. This monument is set upon a substantial, tiered base, which extends to include a matching, integrated granite bench, offering a cohesive space for reflection. The entire piece is finished with a stunning high-mirror polish, ensuring its enduring beauty and sophisticated presence.',
 		price: 40000,
 		image: '/images/products/KT005.jpg'
 	},
 	{
 		id: 'KT006',
 		name: 'KT006',
-		description: 'Elegant upright memorial.',
+		description:
+			'The Modern Two-Tone Granite Memorial presents a sophisticated contrast through its use of materials and clean, geometric forms. The monument features a smooth, polished gray granite sarcophagus cover and a tall, stark gray headstone, which is framed by a bold, contrasting dark (likely black) granite border. The elevated sarcophagus design provides an imposing, sleek profile, further distinguished by a subtle, matching granite vase or lamp holder integrated near the foot. Set upon a wide base of lighter speckled granite, this memorial expertly balances various shades of gray and black, delivering a striking, architectural, and highly contemporary tribute.',
 		price: 35000,
 		image: '/images/products/KT006.jpg'
 	},
