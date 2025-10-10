@@ -123,126 +123,144 @@ export const catalogue = [
 	{
 		id: 'KT016',
 		name: 'KT016',
-		description: 'Elegant upright memorial stone.',
+		description:
+			'The Sovereign Black and Gold Memorial is a statement of profound elegance, crafted entirely from a single piece of deep black granite and finished with an immaculate high-gloss, mirror-like polish. This monolithic design features a substantial, multi-tiered sarcophagus set upon a sleek, low-profile base, all defined by clean, sharp lines. Its distinctive, asymmetrical headstone is composed of two adjoining vertical panels, with one side dedicated to a tall, slender gold-inlaid cross and the other providing a pristine surface for matching gold lettering. The result is a unified, powerful, and exceptionally dignified tribute that masterfully combines modern form with timeless accents.',
 		price: 40000,
 		image: '/images/products/KT016.jpg'
 	},
 	{
 		id: 'KT017',
 		name: 'KT017',
-		description: 'Family tombstone with engraving.',
+		description:
+			'The Sapphire Contrast Memorial is a bold, ultra-modern tribute defined by a stunning blend of highly polished deep black granite and unique, textured blue speckled granite. The tall, vertical headstone is a sleek black canvas, beautifully accented by a striking, full-height column of the sapphire-blue granite along the left edge, which provides visual balance to the white cross and inscription. The multi-tiered black sarcophagus continues this theme, featuring the blue granite used as a consistent accent on a recessed foot section that serves as a seating area, a coordinating integrated vase/flower holder, and a small accessory stand, resulting in a powerfully geometric and richly contrasting design.',
 		price: 45000,
 		image: '/images/products/KT017.jpg'
 	},
 	{
 		id: 'KT018',
 		name: 'KT018',
-		description: 'Heart-shaped granite tombstone.',
+		description:
+			'The Minimalist Cross Sarcophagus is a powerful contemporary memorial that eschews the traditional headstone for a sleek, horizontal profile. The design is centered on a massive, highly polished deep black granite block, distinguished by a striking, integrated metallic or white cross inlay that spans the width of the lid, creating a shallow channel or visual divide. This dramatic black form rests upon a wide base of contrasting speckled green/gray granite, which provides stability and subtle color texture. With the inscription placed directly on the sarcophagus and complemented by a modern metallic vase, this monument represents a sophisticated and minimal approach to remembrance.',
 		price: 27000,
 		image: '/images/products/KT018.jpg'
 	},
 	{
 		id: 'KT019',
 		name: 'KT019',
-		description: 'Polished granite memorial.',
+		description:
+			"The Integrated Cross Memorial is a contemporary, cohesive tribute crafted predominantly from striking, highly polished deep black granite. The tall, upright headstone features a contrasting light gray vertical inlay that frames the name, adding a sophisticated, architectural detail. The most prominent element is the large, flat light granite cross seamlessly integrated into the sarcophagus lid, which extends to meet the headstone in a powerful, unified design. Set upon a substantial black granite base, the monument's clean lines are complemented by an integrated black granite vase with a matching white accent band, creating an overall aesthetic of modern elegance and permanence.",
 		price: 45000,
 		image: '/images/products/KT019.jpg'
 	},
 	{
 		id: 'KT020',
 		name: 'KT020',
-		description: 'Classic tombstone design.',
+		description:
+			"The Heart's Embrace Memorial is a beautifully emotive and contemporary tribute defined by its strong two-tone contrast and symbolic form. The monument rests upon a substantial base and sarcophagus of polished light gray speckled granite, sharply contrasted by the deep black granite used for the asymmetrical, angled headstone. The signature element is the cleanly cut heart aperture in the taller panel, which serves as a powerful focal point for the inscription. A thin, horizontal black accent band runs across the sarcophagus, tying the design together, while a geometric lantern and modern metallic vase complete this sophisticated and heartfelt memorial.",
 		price: 45000,
 		image: '/images/products/KT020.jpg'
 	},
 	{
 		id: 'KT021',
 		name: 'KT021',
-		description: 'Marble upright tombstone.',
+		description:
+			'The Two-Tone Channel Memorial presents a high-contrast, architectural design defined by its sophisticated material pairing. The substantial sarcophagus cover is crafted from a polished light gray striated marble or granite, which rests elegantly on a wide base of deep black granite. The headstone continues this stark contrast, featuring two black granite panels - one for inscription and a taller one for a prominent white cross inlay. A defining feature is the deep, horizontal black granite channel that cuts across the sarcophagus, adding dimension and perfectly integrating the accompanying lantern and the modern, two-tone metallic vase. This design is a striking example of contemporary elegance and geometric precision.',
 		price: 45000,
 		image: '/images/products/KT021.jpg'
 	},
 	{
 		id: 'KT022',
 		name: 'KT022',
-		description: 'Black granite memorial stone.',
+		description:
+			'The Striated Granite Planter Memorial is a visually dynamic and modern tribute, characterized by its striking material combination and an integrated landscaping feature. The entire base and main structure are crafted from a richly veined light striated granite, featuring a substantial, open-top section designed as a built-in planter. This is sharply contrasted by a sleek, highly polished black granite slab that serves as a partial burial cover, placed asymmetrically over the planter. The asymmetrical, dual-panel headstone continues this theme, pairing a primary inscription panel of the light striated granite with a taller, adjacent panel of polished black granite, which is distinguished by a simple white cross inlay, expertly balancing hard architectural lines with the softness of a natural garden element.',
 		price: 27000,
 		image: '/images/products/KT022.jpg'
 	},
 	{
 		id: 'KT023',
 		name: 'KT023',
-		description: 'Family memorial tombstone.',
+		description:
+			'The Polished Dual-Symbol Sarcophagus is a sleek, contemporary monument defined by its striking low profile and contrasting materials. The main structure features a wide outer frame of polished green speckled granite, which supports a large, central cover of deep black granite finished to a high-mirror sheen. The inscription area is elegantly segmented, featuring both a traditional cross and lettering at the head and a distinct, engraved dove motif at the foot. A sophisticated visual line is created by the narrow green granite strip integrated into the back edge of the black lid, while a matching black vase and a recessed lantern holder complete this highly modern and refined horizontal tribute.',
 		price: 33000,
 		image: '/images/products/KT023.jpg'
 	},
 	{
 		id: 'KT024',
 		name: 'KT024',
-		description: 'Elegant engraved tombstone.',
+		description:
+			'The Monumental Textured Cross Memorial is a powerful and architecturally defined tribute that masterfully combines multiple finishes and materials. The design features a multi-tiered base of polished light gray speckled granite, supporting a sleek polished black granite sarcophagus lid. The defining element is the headstone, which pairs a polished black slab for inscription with a commanding, full-height cross crafted from a contrasting textured, light gray granite. This unique matte finish on the cross creates a striking visual and tactile separation from the surrounding polished surfaces. Completed with an integrated black granite vase and a modern lantern, this memorial is a sophisticated statement of faith and contemporary design.',
 		price: 40000,
 		image: '/images/products/KT024.jpg'
 	},
 	{
 		id: 'KT025',
 		name: 'KT025',
-		description: 'Polished upright tombstone.',
+		description:
+			'The Bicolor Vertical Divide Memorial is a contemporary masterpiece defined by its dramatic and perfect 50/50 material split. The entire structure, from the base and sarcophagus up to the tall headstone, is divided vertically between highly polished deep black granite and luminous light gray striated granite. This stark division creates a powerful visual statement, where the black panel of the headstone provides the perfect backdrop for a prominent white cross inlay, while the light panel serves as the primary surface for inscription. Integrated accessories, including a black lantern holder and a vase, are thoughtfully placed on opposite sides of the divide, enhancing the sophisticated symmetry and enduring visual impact of this unique tribute.',
 		price: 40000,
 		image: '/images/products/KT025.jpg'
 	},
 	{
 		id: 'KT026',
 		name: 'KT026',
-		description: 'Heart-shaped memorial.',
+		description:
+			'The Bicolor Vertical Cross Memorial is a contemporary and dignified design perfectly suited for dual inscription, defined by its stark material contrast. The monument rests on a multi-layered base of polished light gray striated granite, which frames a sleek, elevated sarcophagus lid of deep black granite. The bold, upright headstone is split vertically, featuring the light striated granite on the left to highlight a prominent white cross inlay, and the highly polished black granite on the right, providing a contrasting backdrop for two distinct inscriptions. The design is completed by an integrated square black granite vase, reinforcing the clean lines and sophisticated, modern aesthetic of the piece.',
 		price: 35000,
 		image: '/images/products/KT026.jpg'
 	},
 	{
 		id: 'KT027',
 		name: 'KT027',
-		description: 'Classic granite design.',
+		description:
+			'The Curvaceous Black Granite Memorial is an exceptionally sophisticated tribute crafted entirely from highly polished deep black granite, emphasizing luxurious depth and fluid geometry. Its defining feature is the dual-panel headstone, which is split by a dramatic wavy vertical channel, separating the design into a symbolic panel and an inscription panel. The monument is richly accented with metallic gold elements, including a prominent crucifix on the left panel, gold lettering, and a complementary integrated lamp on the right. The multi-tiered, reflective sarcophagus base completes this monolithic design, showcasing a powerful blend of modern form and traditional reverence.',
 		price: 30000,
 		image: '/images/products/KT027.jpg'
 	},
 	{
 		id: 'KT028',
 		name: 'KT028',
-		description: 'White marble memorial.',
+		description:
+			'The Sweeping Arc Granite Memorial is a highly architectural tribute, masterfully crafted from a single type of deep, polished speckled granite. The design is defined by its dynamic, multi-layered headstone, which features a large primary panel with a dramatic, outward-sweeping curved silhouette. Set before this is a narrower vertical panel distinguished by a contrasting fluted or textured finish, which provides a unique tactile element and is crowned by an elegant metallic gold cross. The entire composition, including a small horizontal epitaph panel, rests on a substantial, multi-tiered base, creating a sophisticated and powerful memorial that expertly plays with curves, layers, and textures.',
 		price: 35000,
 		image: '/images/products/KT028.jpg'
 	},
 	{
 		id: 'KT029',
 		name: 'KT029',
-		description: 'Black granite double tombstone.',
+		description:
+			'The Dual Pathway Memorial is a commanding and symmetrical monument designed as a harmonious tribute for two individuals, defined by its bold use of material blocking. The substantial sarcophagus features two distinct, parallel top slabs - one of highly polished black granite and the other of light gray speckled granite-creating a powerful visual representation of two lives joined together. This dualism is mirrored in the grand, three-panel headstone, which features two polished black granite wings for individual inscriptions, flanking a prominent, slightly taller central panel of light gray granite. This central panel serves as a unifying element, distinguished by a beautifully contrasting black granite cross, completing a design that is both architecturally impressive and deeply symbolic.',
 		price: 75000,
 		image: '/images/products/KT029.jpg'
 	},
 	{
 		id: 'KT030',
 		name: 'KT030',
-		description: 'Elegant upright tombstone.',
+		description:
+			'The Layered Three-Panel Granite Memorial is an exceptionally architectural and complex tribute defined by the intricate layering of contrasting materials. The multi-tiered base and sarcophagus body are crafted from polished light gray striated granite, which is elegantly topped by a lid featuring a central deep black granite channel that splits the surface. The headstone is a sophisticated three-panel composition: a central pillar of the light striated granite, accented with a black cross inlay, is flanked by two taller, mirror-polished black granite panels designed for inscription. This dynamic arrangement of color, reflection, and layered form creates a commanding and highly contemporary visual statement.',
 		price: 75000,
 		image: '/images/products/KT030.jpg'
 	},
 	{
 		id: 'KT031',
 		name: 'KT031',
-		description: 'Family memorial stone.',
+		description:
+			'The Metallic Plate Granite Memorial is a grand and sophisticated tribute, defined by its symmetrical, winged headstone and unique material combination. The main structure rests on a wide base of polished green speckled granite, supporting a sarcophagus of highly polished black granite. The commanding headstone features a central black granite panel distinguished by modern, horizontal metallic plates for inscription, which provide a sharp contrast to the stone. This central panel is flanked by two taller "wings" of the green granite, each adorned with a simple, elegant cross inlay. The result is a perfectly balanced and luxurious design that masterfully blends rich, natural stone with sleek, contemporary metallic elements.',
 		price: 75000,
 		image: '/images/products/KT031.jpg'
 	},
 	{
 		id: 'KT032',
 		name: 'KT032',
-		description: 'Classic engraved tombstone.',
+		description:
+			'The Symmetrical Dual Sarcophagus Memorial is an exceptionally grand and unified tribute, defined by its perfect symmetry and dramatic material contrast. The entire monument rests upon a wide base of polished light striated granite, which frames two elevated, parallel sarcophagi with highly polished black granite lids, separated by a central accent channel. The headstone continues this theme, using the light striated granite to form a commanding frame around two separate, recessed black granite panels, each dedicated to an individual inscription. The design is complemented by symmetrically placed metallic crucifixes, matching lanterns, and modern bicolor integrated planters, creating a visually stunning, architecturally precise, and reverent memorial for two.',
 		price: 75000,
 		image: '/images/products/KT032.jpg'
 	},
 	{
 		id: 'KT033',
 		name: 'KT033',
-		description: 'Polished granite upright.',
+		description:
+			'The Monolithic Gold Cross Memorial is an intensely sophisticated tribute, crafted entirely from deep, highly polished black granite. The multi-tiered sarcophagus features sharply beveled edges and a flawless mirror finish, creating a profound depth. The tall, sleek headstone is distinguished by a large, integrated metallic gold cross that runs vertically along the left edge, separating the religious symbolism from the primary gold inscription area. This striking gold theme is echoed in the horizontal bands of the unique, angular integrated vertical planter, which anchors the right side of the headstone base. The overall effect is a powerful, modern design that balances stark geometry with luxurious, warm metallic accents.',
 		price: 35000,
 		image: '/images/products/KT033.jpg'
 	},
