@@ -51,63 +51,72 @@ export const catalogue = [
 	{
 		id: 'KT007',
 		name: 'KT007',
-		description: 'Angel carving for remembrance.',
+		description:
+			'The Bold Contrast Granite Memorial is a striking design defined by its sophisticated material pairing: a bright, polished light gray speckled granite for the central headstone and sarcophagus lid, framed dramatically by substantial deep black granite accents. The upright headstone, which features a crisp, modern shape, is fully encased in the dark frame, creating a powerful visual border that emphasizes the inscription. The overall design sits on a clean, low-profile base, utilizing the contrasting colors to achieve a modern, high-end look that is both elegant and deeply distinctive.',
 		price: 40000,
 		image: '/images/products/KT007.jpg'
 	},
 	{
 		id: 'KT008',
 		name: 'KT008',
-		description: 'Heart-shaped tombstone for loved ones.',
+		description:
+			'The Minimalist Gray and Black Contrast Memorial offers a clean, architectural tribute defined by its sleek material and color blocking. The main headstone and sarcophagus lid are crafted from a polished light gray speckled granite, providing a bright, smooth surface for inscription. This light panel is bordered by a substantial, contrasting deep black granite surround on the left and along the base, creating a modern, asymmetrical effect. The design is completed with a minimalist matching black granite vase, ensuring the focus remains on the elegant contrast and clean lines of this contemporary and dignified memorial.',
 		price: 40000,
 		image: '/images/products/KT008.jpg'
 	},
 	{
 		id: 'KT009',
 		name: 'KT009',
-		description: 'Granite headstone with polished finish.',
+		description:
+			"The Asymmetrical Polished Black Memorial is a study in modern sophistication, crafted entirely from deep, highly polished black granite. The upright headstone features an asymmetrical design, with a dramatic, recessed vertical channel that houses a subtle, elegant cross inlay, drawing the eye up to the inscription panel. The monument's sleek sarcophagus cover extends forward, creating a clean profile that is tastefully juxtaposed with a modern, contrasting metallic planter box and a central granite or metal lamp. The overall high-gloss finish ensures a profound, mirror-like depth that underscores the clean lines and contemporary elegance of this distinctive tribute.",
 		price: 40000,
 		image: '/images/products/KT009.jpg'
 	},
 	{
 		id: 'KT010',
 		name: 'KT010',
-		description: 'Classic upright tombstone.',
+		description:
+			'The Bold Two-Panel Contrast Memorial is a visually dynamic and modern tribute, characterized by its striking material combination and split headstone design. The upright structure features two distinct panels: a bright, textured white or light gray granite for the primary inscription, juxtaposed with a smooth, solid black granite panel prominently featuring a sleek white cross inlay. The foundation continues this contrast, with a light granite base framing a section for landscaping, while the burial cover is finished with a highly polished black granite slab. This piece perfectly balances traditional symbolism with a sharp, architectural, and contemporary aesthetic.',
 		price: 35000,
 		image: '/images/products/KT010.jpg'
 	},
 	{
 		id: 'KT011',
 		name: 'KT011',
-		description: 'Elegant memorial with engraving.',
+		description:
+			'The Contemporary Corner Cross Memorial is a distinctive design defined by its sophisticated color and material contrast. The structure is built primarily from a warm, polished reddish-brown speckled granite, creating a rich and inviting aesthetic. Its asymmetrical headstone features a tall, narrow vertical element on the left, which is adorned with a simple black cross inlay, while a contrasting slab of smooth, deep black granite forms the main inscription panel. The highly polished sarcophagus cover, crafted from the same reddish-brown stone, sits elevated upon a sleek black granite base, resulting in a modern, elegant, and uniquely colored tribute.',
 		price: 40000,
 		image: '/images/products/KT011.jpg'
 	},
 	{
 		id: 'KT012',
 		name: 'KT012',
-		description: 'Double tombstone for families.',
+		description:
+			"The Contemporary White Marble Memorial is a strikingly bright and architectural tribute, featuring a clean, minimalist design crafted from textured white or light gray marble. Both the upright headstone and the elongated sarcophagus cover showcase the stone's natural veining and light-catching surface. The monument's modern profile is sharply contrasted by a sleek, integrated black granite planter box and a simple black lantern, creating a beautiful balance of color and form. Set upon a matching base, this design achieves a luminous, contemporary, and dignified presence with a focus on clean geometry and thoughtful simplicity.",
 		price: 45000,
 		image: '/images/products/KT012.jpg'
 	},
 	{
 		id: 'KT013',
 		name: 'KT013',
-		description: 'Polished granite tombstone.',
+		description:
+			'The Textured Tiered Memorial is a masterclass in material and textural contrast, combining a rough-hewn, light gray granite with smooth, polished black granite elements. The design is built upon a substantial two-tiered base of the textured gray stone, which supports an elevated sarcophagus cover distinguished by a sleek, black granite riser that creates a sophisticated floating illusion. The asymmetrical headstone features a vertical pillar of textured granite with an inlaid black cross, set against a highly polished black slab perfect for inscription. A seamlessly integrated black granite vase holder completes this architecturally robust and visually dynamic tribute.',
 		price: 45000,
 		image: '/images/products/KT013.jpg'
 	},
 	{
 		id: 'KT014',
 		name: 'KT014',
-		description: 'White marble headstone.',
+		description:
+			'The Modern Ribbon Contrast Memorial is a visually striking, high-end design defined by its elegant material contrast. The structure is built primarily from deep, speckled black granite with a high-gloss polish. A dramatic white marble or light granite ribbon visually wraps around the monument, appearing on the headstone, flowing down the side, and across the front of the sarcophagus cover. The headstone features a vertical metallic cross and a sleek, integrated metallic vase, emphasizing the clean lines and architectural nature of the piece. This modern memorial masterfully uses contrasting colors and seamless flow to create a truly unique and sophisticated tribute.',
 		price: 55000,
 		image: '/images/products/KT014.jpg'
 	},
 	{
 		id: 'KT015',
 		name: 'KT015',
-		description: 'Black granite tombstone with inscription.',
+		description:
+			'The Elegant Peach Marble and Black Granite Memorial is a premium design defined by its sophisticated color and material pairing. The main body of the monument, including the base and the highly polished sarcophagus cover, is crafted from warm, richly veined peach or beige marble. This light stone beautifully frames a striking, polished black granite headstone, which provides a perfect dark canvas for inscription and a white cross inlay. The modern design is accessorized with a metallic gold vase and a matching gold-accented lantern, enhancing the overall sense of elegance and refined contrast in this distinguished memorial.',
 		price: 55000,
 		image: '/images/products/KT015.jpg'
 	},
