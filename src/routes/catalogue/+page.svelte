@@ -3,7 +3,7 @@
 </script>
 
 <section class="container mx-auto px-6 py-16">
-  <h1 class="text-4xl font-bold text-center text-red-600 mb-10">Khanyisa Tombstone Catalogue</h1>
+  <h1 class="text-4xl font-bold text-center text-red-600 mb-10">Our Catalogue</h1>
   <p class="text-center text-red-600 mb-10">Please click on each tombstone to view full description.</p>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
