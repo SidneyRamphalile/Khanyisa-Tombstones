@@ -43,10 +43,10 @@
 
   <!-- Social Icons (Desktop) -->
   <div class="hidden md:flex space-x-4">
-    <a href="https://www.facebook.com/yourpage" target="_blank" class="hover:text-red-600" aria-label="Facebook">
+    <a href="https://www.facebook.com/profile.php?id=61561812031687" target="_blank" class="hover:text-red-600" aria-label="Facebook">
       <Facebook class="w-5 h-5" />
     </a>
-    <a href="https://www.instagram.com/yourpage" target="_blank" class="hover:text-red-600" aria-label="Instagram">
+    <a href="https://www.instagram.com/" target="_blank" class="hover:text-red-600" aria-label="Instagram">
       <Instagram class="w-5 h-5" />
     </a>
   </div>
@@ -65,10 +65,10 @@
 
       <!-- Mobile Social Icons -->
       <div class="flex space-x-6 pt-4">
-        <a href="https://www.facebook.com/yourpage" target="_blank" class="hover:text-red-600" aria-label="Facebook">
+        <a href="https://www.facebook.com/profile.php?id=61561812031687" target="_blank" class="hover:text-red-600" aria-label="Facebook">
           <Facebook class="w-6 h-6" />
         </a>
-        <a href="https://www.instagram.com/yourpage" target="_blank" class="hover:text-red-600" aria-label="Instagram">
+        <a href="https://www.instagram.com/" target="_blank" class="hover:text-red-600" aria-label="Instagram">
           <Instagram class="w-6 h-6" />
         </a>
       </div>
