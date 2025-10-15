@@ -34,11 +34,12 @@
 
   <!-- Desktop Nav Links -->
   <div class="hidden md:flex flex-1 justify-center space-x-8">
-    <a href="/about" class="hover:text-red-400">About</a>
+    <a href="/" class="hover:text-red-400">Home</a>
+    <a href="/about" class="hover:text-red-400">About Us</a>
     <a href="/catalogue" class="hover:text-red-600">Catalogue</a>
     <a href="/gallery" class="hover:text-red-400">Gallery</a>
     <a href="/services" class="hover:text-red-400">Services</a>
-    <a href="/contact" class="hover:text-red-400">Contact</a>
+    <a href="/contact" class="hover:text-red-400">Contact Us</a>
   </div>
 
   <!-- Social Icons (Desktop) -->
@@ -57,11 +58,12 @@
     style="max-height: {menuOpen ? '500px' : '0'}"
   >
     <div class="flex flex-col items-center py-6 space-y-4">
-      <a href="/about" class="hover:text-red-400" on:click={() => (menuOpen = false)}>About</a>
+      <a href="/" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Home</a>
+      <a href="/about" class="hover:text-red-400" on:click={() => (menuOpen = false)}>About Us</a>
       <a href="/catalogue" class="hover:text-red-600" on:click={() => (menuOpen = false)}>Catalogue</a>
       <a href="/gallery" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Gallery</a>
       <a href="/services" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Services</a>
-      <a href="/contact" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Contact</a>
+      <a href="/contact" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Contact Us</a>
 
       <!-- Mobile Social Icons -->
       <div class="flex space-x-6 pt-4">
