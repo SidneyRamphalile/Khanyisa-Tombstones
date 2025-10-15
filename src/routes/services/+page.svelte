@@ -13,7 +13,7 @@
     {
       title: "Digital Memorial Pages",
       description:
-        "Families can personalize their loved one's digital space with photos, videos, stories, and achievements - ensuring that their memory is preserved and shared for generations to come."
+        "Families can personalize their loved one's digital space with photos, stories, and achievements - ensuring that their memory is preserved and shared for generations to come."
     },
     {
       title: "Restoration & Maintenance",
