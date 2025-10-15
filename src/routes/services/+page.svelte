@@ -8,12 +8,12 @@
     {
       title: "QR Code Memorial Integration",
       description:
-        "Our signature innovation — a scannable, weatherproof QR code engraved on each headstone — links directly to an online memorial page that tells the complete story of your loved one’s life."
+        "Our signature innovation - a scannable, weatherproof QR code engraved on each headstone - links directly to an online memorial page that tells the complete story of your loved one's life."
     },
     {
       title: "Digital Memorial Pages",
       description:
-        "Families can personalize their loved one's digital space with photos, videos, stories, and achievements — ensuring that their memory is preserved and shared for generations to come."
+        "Families can personalize their loved one's digital space with photos, videos, stories, and achievements - ensuring that their memory is preserved and shared for generations to come."
     },
     {
       title: "Restoration & Maintenance",
@@ -23,12 +23,12 @@
     {
       title: "Consultation & Design Support",
       description:
-        "Our compassionate design consultants guide families through every step — from concept to final installation — ensuring each memorial tells a story of life, love, and legacy."
+        "Our compassionate design consultants guide families through every step - from concept to final installation - ensuring each memorial tells a story of life, love, and legacy."
     },
     {
       title: "Legacy Preservation Packages",
       description:
-        "Our all-inclusive packages combine physical memorials and digital archives, offering a seamless way for families to celebrate, protect, and share their loved one’s heritage."
+        "Our all-inclusive packages combine physical memorials and digital archives, offering a seamless way for families to celebrate, protect, and share their loved one's heritage."
     }
   ];
 </script>
