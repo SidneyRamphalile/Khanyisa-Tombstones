@@ -9,7 +9,35 @@
     Khanyisa Tombstones & Granite
   </a>
 
-  <!-- Hamburger Icon (visible only on mobile) -->
+  <!-- Desktop Nav Links + Button -->
+  <div class="hidden md:flex flex-1 items-center justify-center space-x-8">
+    <a href="/" class="hover:text-red-400">Home</a>
+    <a href="/about" class="hover:text-red-400">About Us</a>
+    <a href="/catalogue" class="hover:text-red-600">Catalogue</a>
+    <a href="/gallery" class="hover:text-red-400">Gallery</a>
+    <a href="/services" class="hover:text-red-400">Services</a>
+    <a href="/contact" class="hover:text-red-400">Contact Us</a>
+
+    <!-- "Request a Quote" Button -->
+    <a 
+      href="/contact" 
+      class="ml-6 bg-red-600 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-red-700 transition transform hover:scale-105 glow-button"
+    >
+      Request a Quote
+    </a>
+  </div>
+
+  <!-- Social Icons (Desktop) -->
+  <div class="hidden md:flex space-x-4">
+    <a href="https://www.facebook.com/profile.php?id=61561812031687" target="_blank" class="hover:text-red-600" aria-label="Facebook">
+      <Facebook class="w-5 h-5" />
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" class="hover:text-red-600" aria-label="Instagram">
+      <Instagram class="w-5 h-5" />
+    </a>
+  </div>
+
+  <!-- Hamburger Icon (Mobile) -->
   <button
     class="md:hidden focus:outline-none"
     on:click={() => (menuOpen = !menuOpen)}
@@ -31,26 +59,6 @@
       </svg>
     {/if}
   </button>
-
-  <!-- Desktop Nav Links -->
-  <div class="hidden md:flex flex-1 justify-center space-x-8">
-    <a href="/" class="hover:text-red-400">Home</a>
-    <a href="/about" class="hover:text-red-400">About Us</a>
-    <a href="/catalogue" class="hover:text-red-600">Catalogue</a>
-    <a href="/gallery" class="hover:text-red-400">Gallery</a>
-    <a href="/services" class="hover:text-red-400">Services</a>
-    <a href="/contact" class="hover:text-red-400">Contact Us</a>
-  </div>
-
-  <!-- Social Icons (Desktop) -->
-  <div class="hidden md:flex space-x-4">
-    <a href="https://www.facebook.com/profile.php?id=61561812031687" target="_blank" class="hover:text-red-600" aria-label="Facebook">
-      <Facebook class="w-5 h-5" />
-    </a>
-    <a href="https://www.instagram.com/" target="_blank" class="hover:text-red-600" aria-label="Instagram">
-      <Instagram class="w-5 h-5" />
-    </a>
-  </div>
 
   <!-- Mobile Menu -->
   <div
@@ -77,3 +85,20 @@
     </div>
   </div>
 </nav>
+
+<style>
+  /* Glowing effect for the "Request a Quote" button */
+  .glow-button {
+    box-shadow: 0 0 8px #ff0000, 0 0 16px #ff0000, 0 0 24px #ff4d4d;
+    animation: glowPulse 2s infinite alternate;
+  }
+
+  @keyframes glowPulse {
+    0% {
+      box-shadow: 0 0 8px #ff0000, 0 0 16px #ff0000, 0 0 24px #ff4d4d;
+    }
+    100% {
+      box-shadow: 0 0 12px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff4d4d;
+    }
+  }
+</style>
