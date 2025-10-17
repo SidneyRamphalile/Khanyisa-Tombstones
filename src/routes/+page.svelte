@@ -86,22 +86,82 @@
   </div>
 </section>
 
-<!-- Pricing Section -->
+<!-- Pricing & Payment Plans Section -->
 <section class="bg-red-600 text-white py-16 px-6" data-aos="fade-up">
-  <div class="max-w-4xl mx-auto text-center space-y-6">
-    <h2 class="text-3xl font-bold">Memorial Page Pricing</h2>
+  <div class="max-w-5xl mx-auto space-y-8 text-center">
+    <h2 class="text-3xl font-bold mb-6">💳 Khanyisa Tombstones Pricing & Payment Plans</h2>
     <p class="text-lg">
-      Choose the plan that best suits your family's needs and preserve memories for generations to come.
+      Choose the plan that best suits your family's needs and preserve memories for generations to come. We offer flexible options to make honoring your loved ones as easy as possible.
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
-      <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg space-y-2">
-        <h3 class="text-xl font-bold">Basic Plan</h3>
+
+    <!-- Memorial Page Pricing -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 text-gray-800">
+      <div class="bg-white p-6 rounded-lg shadow-lg space-y-2">
+        <h3 class="text-xl font-bold text-red-600">Basic Plan</h3>
         <p><span class="font-semibold text-red-600">R500</span> - One-time payment for one QR code & memorial page</p>
       </div>
-      <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg space-y-2">
-        <h3 class="text-xl font-bold">Premium Plan</h3>
+      <div class="bg-white p-6 rounded-lg shadow-lg space-y-2">
+        <h3 class="text-xl font-bold text-red-600">Premium Plan</h3>
         <p><span class="font-semibold text-red-600">R1200</span> - Unlimited updates, multiple photos, and family tree integration</p>
       </div>
     </div>
+
+    <!-- Detailed Payment Plans -->
+    <div class="grid gap-8 md:grid-cols-2 mt-10 text-gray-800">
+
+      <!-- Cash Payment -->
+      <div class="bg-white p-6 rounded-lg shadow-lg space-y-3">
+        <h3 class="text-xl font-bold text-red-600">1. Cash Payment 💰</h3>
+        <p>Full payment upfront. Work begins immediately after confirmation. Enjoy a <strong>5–10% discount</strong> for upfront payment.</p>
+        <p class="font-semibold">✅ Best for customers who want quick installation.</p>
+      </div>
+
+      <!-- Lay-by Plan -->
+      <div class="bg-white p-6 rounded-lg shadow-lg space-y-3">
+        <h3 class="text-xl font-bold text-red-600">2. Lay-by Plan 🗓️</h3>
+        <p>Pay a minimum 30% deposit, then the remaining balance over 3–6 months. Installation occurs after full payment.</p>
+        <p class="font-semibold">💡 Ideal for families planning ahead.</p>
+        <p class="text-sm italic">
+          Example: Tombstone costs R12,000 → Deposit: R3,600 → 6 monthly payments of R1,400
+        </p>
+      </div>
+
+      <!-- Funeral Cover -->
+      <div class="bg-white p-6 rounded-lg shadow-lg space-y-3">
+        <h3 class="text-xl font-bold text-red-600">3. Funeral Cover / Policy Payout 📝</h3>
+        <p>If the deceased has a funeral policy, we can coordinate the claim. Payment can be settled directly from the policy.</p>
+        <p class="font-semibold">📄 Convenient for families using existing cover.</p>
+      </div>
+
+      <!-- 50/50 Payment Plan -->
+      <div class="bg-white p-6 rounded-lg shadow-lg space-y-3">
+        <h3 class="text-xl font-bold text-red-600">4. 50/50 Payment Plan ⚡</h3>
+        <p>Pay 50% deposit to start the order and the remaining 50% on or before installation day. Perfect for urgent cases.</p>
+        <p class="text-sm italic">
+          Example: Tombstone costs R10,000 → Deposit: R5,000 → Pay R5,000 before installation
+        </p>
+      </div>
+
+      <!-- Corporate / Group Accounts -->
+      <div class="bg-white p-6 rounded-lg shadow-lg space-y-3 md:col-span-2">
+        <h3 class="text-xl font-bold text-red-600">5. Corporate / Group / Church Accounts 🏢</h3>
+        <p>For multiple tombstones, churches, societies, or funeral parlors. 30–60 day payment terms (approved credit) with discounted bulk pricing.</p>
+      </div>
+    </div>
+
+    <!-- Payment Methods -->
+    <div class="bg-yellow-100 text-gray-800 p-6 rounded-lg shadow-lg space-y-3 mt-8">
+      <h3 class="text-xl font-bold text-red-600">Accepted Payment Methods 💳</h3>
+      <ul class="list-disc list-inside">
+        <li>EFT (Bank Transfer)</li>
+        <li>Capitec Pay / Immediate Payment</li>
+        <li>Cash (Office Only)</li>
+        <li>PayFast / Ozow Online Payment (coming soon)</li>
+      </ul>
+      <p class="text-red-600 mt-2">
+        ⚠ Important: Orders start production after deposit/first payment. Designs remain property of Khanyisa Tombstones until fully paid. Missed payments may cause delays or cancellations.
+      </p>
+    </div>
   </div>
 </section>
+
