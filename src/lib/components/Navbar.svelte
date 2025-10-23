@@ -25,6 +25,14 @@
     >
       Request a Quote
     </a>
+
+    <!-- Memorial Wall Link (after Request a Quote) -->
+    <a 
+      href="/memorial-wall" 
+      class="ml-4 text-red-500 font-semibold hover:text-red-400 transition"
+    >
+      Memorial Wall
+    </a>
   </div>
 
   <!-- Social Icons (Desktop) -->
@@ -63,7 +71,7 @@
   <!-- Mobile Menu -->
   <div
     class="md:hidden absolute top-full left-0 w-full bg-black overflow-hidden transition-all duration-500 ease-in-out z-40"
-    style="max-height: {menuOpen ? '500px' : '0'}"
+    style="max-height: {menuOpen ? '600px' : '0'}"
   >
     <div class="flex flex-col items-center py-6 space-y-4">
       <a href="/" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Home</a>
@@ -72,6 +80,24 @@
       <a href="/gallery" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Gallery</a>
       <a href="/services" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Services</a>
       <a href="/contact" class="hover:text-red-400" on:click={() => (menuOpen = false)}>Contact Us</a>
+
+      <!-- "Request a Quote" Button (Mobile) -->
+      <a 
+        href="/contact" 
+        class="bg-red-600 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-red-700 transition transform hover:scale-105 glow-button"
+        on:click={() => (menuOpen = false)}
+      >
+        Request a Quote
+      </a>
+
+      <!-- Memorial Wall Link (Mobile) -->
+      <a 
+        href="/memorial-wall" 
+        class="text-red-500 font-semibold hover:text-red-400 transition"
+        on:click={() => (menuOpen = false)}
+      >
+        Memorial Wall
+      </a>
 
       <!-- Mobile Social Icons -->
       <div class="flex space-x-6 pt-4">
