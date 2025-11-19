@@ -52,7 +52,7 @@
 </section>
 
 <!-- Featured Tombstones Section -->
-<section class="container mx-auto py-16 px-6" data-aos="fade-up">
+<!-- <section class="container mx-auto py-16 px-6" data-aos="fade-up">
   <h2 class="text-2xl font-bold text-center text-red-600 mb-10">Featured Tombstones</h2>
   <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
     {#each featured as product}
@@ -61,7 +61,47 @@
       </a>
     {/each}
   </div>
+</section> -->
+
+<section class="container mx-auto px-6 py-16">
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+    
+    <!-- Memorials Tile -->
+    <a href="/memorial-wall" class="group block border-2 border-red-600 rounded-lg shadow-lg p-6 transition-all duration-300 hover:bg-red-600">
+      <div class="flex justify-center mb-4">
+        <svg class="w-12 h-12 text-red-600 transition-colors duration-300 group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+      </div>
+      <h2 class="text-xl font-bold mb-1 transition-colors duration-300 group-hover:text-white">MEMORIALS</h2>
+      <p class="text-gray-600 text-sm transition-colors duration-300 group-hover:text-white">View Tributes</p>
+    </a>
+
+    <!-- Family Tree Tile -->
+    <a href="/memorial-wall" class="group block border-2 border-red-600 rounded-lg shadow-lg p-6 transition-all duration-300 hover:bg-red-600">
+      <div class="flex justify-center mb-4">
+        <svg class="w-12 h-12 text-gray-800 transition-colors duration-300 group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4 8 5.79 8 8s1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+        </svg>
+      </div>
+      <h2 class="text-xl font-bold mb-1 transition-colors duration-300 group-hover:text-white">FAMILY TREE</h2>
+      <p class="text-gray-600 text-sm transition-colors duration-300 group-hover:text-white">Family History</p>
+    </a>
+
+    <!-- Orders Tile -->
+    <a href="/contact" class="group block border-2 border-red-600 rounded-lg shadow-lg p-6 transition-all duration-300 hover:bg-red-600">
+      <div class="flex justify-center mb-4">
+        <svg class="w-12 h-12 text-red-600 transition-colors duration-300 group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M3 3h18v2H3V3zm0 4h18v2H3V7zm0 4h18v2H3v-2zm0 4h18v6H3v-6z"/>
+        </svg>
+      </div>
+      <h2 class="text-xl font-bold mb-1 transition-colors duration-300 group-hover:text-white">ORDER</h2>
+      <p class="text-gray-600 text-sm transition-colors duration-300 group-hover:text-white">Our Collection</p>
+    </a>
+
+  </div>
 </section>
+
 
 
 <!-- QR Code Section -->
