@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { catalogue } from '$lib/data/catalogue.js';
 </script>
 
@@ -24,8 +24,8 @@
   </div>
 </section>
 
-<!-- Design Copyright Disclaimer -->
-<section class="bg-gray-100 py-12 px-6 mt-16 rounded-lg shadow-inner">
+ Design Copyright Disclaimer -->
+<!-- <section class="bg-gray-100 py-12 px-6 mt-16 rounded-lg shadow-inner">
   <div class="max-w-4xl mx-auto text-gray-800 space-y-4 text-sm">
     <h3 class="text-lg font-bold text-red-600 mb-2">Design Copyright Disclaimer</h3>
     <p>
@@ -42,4 +42,8 @@
     </p>
     <p class="font-semibold mt-2">© 2025 Khanyisa Tombstones (Pty) Ltd. All Rights Reserved.</p>
   </div>
+</section> --> 
+
+<section class="container mx-auto px-6 py-16 text-center">
+  <h1 class="text-5xl font-extrabold text-red-600">COMING SOON</h1>
 </section>
