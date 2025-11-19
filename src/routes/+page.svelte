@@ -78,7 +78,7 @@
     </a>
 
     <!-- Family Tree Tile -->
-    <a href="/memorial-wall" class="group block border-2 border-red-600 rounded-lg shadow-lg p-6 transition-all duration-300 hover:bg-red-600">
+    <a href="/memorial/nomsa-dlamini" class="group block border-2 border-red-600 rounded-lg shadow-lg p-6 transition-all duration-300 hover:bg-red-600">
       <div class="flex justify-center mb-4">
         <svg class="w-12 h-12 text-gray-800 transition-colors duration-300 group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4 8 5.79 8 8s1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
