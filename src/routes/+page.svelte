@@ -134,17 +134,38 @@
       Choose the plan that best suits your family's needs and preserve memories for generations to come. We offer flexible options to make honoring your loved ones as easy as possible.
     </p>
 
-    <!-- Memorial Page Pricing -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 text-gray-800">
-      <div class="bg-white p-6 rounded-lg shadow-lg space-y-2">
-        <h3 class="text-xl font-bold text-red-600">Basic Plan</h3>
-        <p><span class="font-semibold text-red-600">R500</span> - One-time payment for one QR code & memorial page</p>
-      </div>
-      <div class="bg-white p-6 rounded-lg shadow-lg space-y-2">
-        <h3 class="text-xl font-bold text-red-600">Premium Plan</h3>
-        <p><span class="font-semibold text-red-600">R1200</span> - Unlimited updates, multiple photos, and family tree integration</p>
-      </div>
-    </div>
+<!-- Memorial Page Pricing -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 text-gray-800">
+
+  <!-- Basic Plan -->
+  <div class="bg-white p-6 rounded-lg shadow-lg space-y-3">
+    <h3 class="text-xl font-bold text-red-600">Basic Plan</h3>
+    <p>
+      <span class="font-semibold text-red-600">R1,500</span> – Once-off
+    </p>
+    <ul class="list-disc ml-5 space-y-1">
+      <li>QR Code Plaque</li>
+      <li>Online Memorial Page</li>
+      <li><span class="font-semibold">R200</span> per additional update</li>
+    </ul>
+  </div>
+
+  <!-- Premium Plan -->
+  <div class="bg-white p-6 rounded-lg shadow-lg space-y-3">
+    <h3 class="text-xl font-bold text-red-600">Premium Plan</h3>
+    <p>
+      <span class="font-semibold text-red-600">R2,800</span> – Once-off + <span class="font-semibold text-red-600">R99/year</span>
+    </p>
+    <ul class="list-disc ml-5 space-y-1">
+      <li>Unlimited updates</li>
+      <li>Multiple photos & gallery</li>
+      <li>Family tree integration</li>
+      <li>QR Code Plaque included</li>
+    </ul>
+  </div>
+
+</div>
+
 
     <!-- Detailed Payment Plans -->
     <div class="grid gap-8 md:grid-cols-2 mt-10 text-gray-800">
